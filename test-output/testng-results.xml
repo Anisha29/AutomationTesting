@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3355" started-at="2017-06-21T05:06:03Z" finished-at="2017-06-21T05:06:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3355" started-at="2017-06-21T05:06:03Z" finished-at="2017-06-21T05:06:07Z">
+      <class name="test.java.rest.MyRest">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:test.java.rest.MyRest@100fc185]" name="TC1" duration-ms="2347" started-at="2017-06-20T23:06:03Z" finished-at="2017-06-20T23:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:test.java.rest.MyRest@100fc185]" name="TC2" duration-ms="968" started-at="2017-06-20T23:06:06Z" finished-at="2017-06-20T23:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+      </class> <!-- test.java.rest.MyRest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
