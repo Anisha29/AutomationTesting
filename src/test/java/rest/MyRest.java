@@ -11,6 +11,7 @@ import static com.jayway.restassured.RestAssured.*;
 
 public class MyRest {
 
+	
 	@Test
 
 	public void TC1() {

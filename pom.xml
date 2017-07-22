@@ -29,21 +29,29 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.4</version>
+		</dependency><!-- https://mvnrepository.com/artifact/com.github.tomakehurst/wiremock -->
+		<dependency>
+			<groupId>com.github.tomakehurst</groupId>
+			<artifactId>wiremock</artifactId>
+			<version>2.6.0</version>
+			<scope>test</scope>
 		</dependency>
+
+
 
 		<dependency>
 			<groupId>com.jayway.restassured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>2.9.0</version>
 			<scope>test</scope>
-			 <exclusions>
-            <exclusion>
-                <groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-            </exclusion>
-        </exclusions>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.httpcomponents</groupId>
+					<artifactId>httpclient</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
